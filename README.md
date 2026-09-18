@@ -131,6 +131,7 @@ Download the artifact used by this example with the Hugging Face CLI:
 ```bash
 hf download neroued/Qwen3.8-27B-nvfp4-NInfer \
   qwen3_8_27b_nvfp4.ninfer \
+  --revision 3526913004b1cf552cb57b88d6a5c6f5e4a89a70 \
   --local-dir models
 ```
 
